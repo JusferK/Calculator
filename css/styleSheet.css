@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+
+img {
+    height: 16px;
+    width: 16px;
+}
+
+.buttonsfield img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}

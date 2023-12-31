@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Calculadora cientifica</title>
+        <h1>Calculadora</h1>
+        <link rel="stylesheet" href="/ProyectosP/Calculadora/css/styleSheet.css">
+    </head>
+    <body>
+        <div id="datafield">
+            <input type="number" id="num1">
+            <input type="number" id="num2">
+        </div>
+        <div id="buttonsfield">
+            <button onclick="addition()">+</button>
+            <button onclick="sustraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="exponents()"><img src="/ProyectosP/Calculadora/fuentes/potenciasigno.png" alt="exponent of 2"></button>
+            <button onclick="exponents2()"><img src="/ProyectosP/Calculadora/fuentes/potenciasigno2.png" alt="exponent at any number"></button>
+            <button onclick="SquareRoot()"><img src="/ProyectosP/Calculadora/fuentes/raiz.png" alt="Square root of a number"></button>
+            <button onclick="CubeRoot()"><img src="/ProyectosP/Calculadora/fuentes/raizcubica.png" alt="Cube root of a number"></button>
+            <button onclick="RootAnyNumber()"><img src="/ProyectosP/Calculadora/fuentes/raizCualquierNumero.png" alt="square at any number"></button>
+        </div>
+        <div id="resultfield">
+            <p id="resultado"></p>
+        </div>
+        <script src="/ProyectosP/Calculadora/js/script.js"></script>
+    </body>
+</html>
